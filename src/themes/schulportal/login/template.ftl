@@ -238,6 +238,7 @@
             >
                 ${msg("accessibility")}
             </a>
+            <#-- Currently not needed for ErWIn Portal
             <a
                 class="footer-item"
                 href="${properties.statusUrl!}"
@@ -246,6 +247,7 @@
             >
                 ${msg("systemStatus")}
             </a>
+            -->
         </div>
         <div class="footer-logos">
             <a
