@@ -208,7 +208,7 @@
             </a>
             <a
                 class="footer-item"
-                href="https://medienberatung.iqsh.de/schulportal-sh.html"
+                href="${client.baseUrl}/hilfe"
                 rel="noopener noreferrer"
                 target="_blank"
             >
