@@ -55,7 +55,7 @@
                         height="60"
                     />
                 </a>
-                <a class="header-help" target="_blank" href="https://medienberatung.iqsh.de/schulportal-sh.html">${msg("help")}</a>
+                <a class="header-help" target="_blank" href="${client.baseUrl}/hilfe">${msg("help")}</a>
             </div>
             <div class="light-header"></div>
         </div>
