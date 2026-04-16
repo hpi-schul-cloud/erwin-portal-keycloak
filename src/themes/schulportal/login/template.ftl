@@ -55,7 +55,7 @@
                         height="60"
                     />
                 </a>
-                <a class="header-help" target="_blank" href="https://medienberatung.iqsh.de/schulportal-sh.html">${msg("help")}</a>
+                <a class="header-help" target="_blank" href="${client.baseUrl}/hilfe">${msg("help")}</a>
             </div>
             <div class="light-header"></div>
         </div>
@@ -200,7 +200,7 @@
         <div class="footer-items">
             <a
                 class="footer-item"
-                href="https://www.secure-lernnetz.de/helpdesk"
+                href="mailto:support@dbildungscloud.de"
                 rel="noopener noreferrer"
                 target="_blank"
             >
@@ -208,7 +208,7 @@
             </a>
             <a
                 class="footer-item"
-                href="https://medienberatung.iqsh.de/schulportal-sh.html"
+                href="${client.baseUrl}/hilfe"
                 rel="noopener noreferrer"
                 target="_blank"
             >
@@ -216,7 +216,7 @@
             </a>
             <a
                 class="footer-item"
-                href="${client.baseUrl}/impressum_datenschutzerklaerung.html"
+                href="${client.baseUrl}/impressum"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -224,12 +224,13 @@
             </a>
             <a
                 class="footer-item"
-                href="${client.baseUrl}/impressum_datenschutzerklaerung.html#privacy_policy"
+                href="${client.baseUrl}/impressum_datenschutzerklaerung.html"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 ${msg("privacyPolicy")}
             </a>
+            <#-- Currently not needed for ErWIn Portal
             <a
                 class="footer-item"
                 href="${client.baseUrl}/impressum_datenschutzerklaerung.html#accessibility"
@@ -238,6 +239,7 @@
             >
                 ${msg("accessibility")}
             </a>
+            -->
             <#-- Currently not needed for ErWIn Portal
             <a
                 class="footer-item"
