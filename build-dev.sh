@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --target development -t  ghcr.io/dbildungsplattform/erwin-portal-keycloak:latest .
+docker build --target development -t  ghcr.io/hpi-schul-cloud/erwin-portal-keycloak:latest .
